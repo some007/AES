@@ -1,0 +1,25 @@
+com/example/aes/SplashScreen.java
+ com.example.aes.SplashScreen
+ com.example.aes.SplashScreen$1
+com/example/aes/BuildConfig.java
+ com.example.aes.BuildConfig
+com/example/aes/LoginActivity.java
+ com.example.aes.LoginActivity
+com/example/aes/DataBindingTriggerClass.java
+ com.example.aes.DataBindingTriggerClass
+com/example/aes/onBoard/mainscreen.java
+ com.example.aes.onBoard.mainscreen
+com/example/aes/SignupActivity.java
+ com.example.aes.SignupActivity
+com/example/aes/databinding/ActivityMainscreenBinding.java
+ com.example.aes.databinding.ActivityMainscreenBinding
+com/example/aes/onBoard/ViewPagerAdapter.java
+ com.example.aes.onBoard.ViewPagerAdapter
+com/example/aes/databinding/SliderLayoutBinding.java
+ com.example.aes.databinding.SliderLayoutBinding
+com/example/aes/onBoard/MainActivity.java
+ com.example.aes.onBoard.MainActivity
+ com.example.aes.onBoard.MainActivity$1
+ com.example.aes.onBoard.MainActivity$2
+com/example/aes/databinding/ActivityMainBinding.java
+ com.example.aes.databinding.ActivityMainBinding
