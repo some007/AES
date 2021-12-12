@@ -1,4 +1,4 @@
-package com.example.aes;
+package com.example.aes.presetup;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aes.Contents.AddRelative;
 import com.example.aes.Contents.HowToSwipe;
+import com.example.aes.DeveloperByActivity;
+import com.example.aes.NewLoginActivity;
+import com.example.aes.R;
+import com.example.aes.Contents.TrigActivity;
 import com.example.aes.fragments.FirstFragment;
 import com.example.aes.fragments.SecondFragment;
 import com.example.aes.fragments.ThirdFragment;
-import com.example.aes.presetup.Login;
+import com.example.aes.helplineCall;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -84,4 +88,18 @@ public class DashBoard extends AppCompatActivity implements BottomNavigationView
         startActivity(i);
     }
 
+    public void screem(View view) {
+
+        Intent i = new Intent(getApplicationContext(), NewLoginActivity.class);
+        startActivity(i);
+    }
+
+    public void whereareyou(View view) {
+    }
+
+    public void callPolice(View view) {
+    }
+
+    public void trackme(View view) {
+    }
 }

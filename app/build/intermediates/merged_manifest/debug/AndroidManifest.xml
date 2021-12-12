@@ -24,7 +24,37 @@
         android:testOnly="true"
         android:theme="@style/Theme.AESAllEmergencyServices" >
         <activity
-            android:name="com.example.aes.SplashScreen"
+            android:name="com.example.aes.NewLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.presetup.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.Contents.HowToSwipe"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.DeveloperByActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.Contents.TrigActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.ViewListContents"
+            android:exported="true" />
+        <activity
+            android:name="com.example.aes.helplineCall"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.Contents.AddRelative"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.presetup.DashBoard"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.presetup.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.example.aes.presetup.SplashScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,8 +64,8 @@
         </activity>
         <activity android:name="com.example.aes.onBoard.MainActivity" />
         <activity android:name="com.example.aes.onBoard.mainscreen" />
-        <activity android:name="com.example.aes.LoginActivity" />
-        <activity android:name="com.example.aes.SignupActivity" />
+        <activity android:name="com.example.aes.presetup.LoginActivity" />
+        <activity android:name="com.example.aes.presetup.SignupActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

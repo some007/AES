@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.aes.LoginActivity;
+import com.example.aes.presetup.LoginActivity;
 import com.example.aes.R;
 import com.example.aes.databinding.ActivityMainBinding;
 
@@ -135,5 +135,6 @@ public class MainActivity extends AppCompatActivity {
 
         return mSLideViewPager.getCurrentItem() + i;
     }
+
 
 }

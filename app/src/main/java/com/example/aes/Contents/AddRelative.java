@@ -1,13 +1,11 @@
-package com.example.aes;
+package com.example.aes.Contents;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.sqlite.SQLiteOpenHelper;
 //import android.support.v7.app.AppCompatActivity;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -17,8 +15,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import java.util.Arrays;
-import java.util.regex.Pattern;
+import com.example.aes.database.DatabaseHelper;
+import com.example.aes.R;
+import com.example.aes.ViewListContents;
 
 public class AddRelative extends AppCompatActivity {
 

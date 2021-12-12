@@ -1,8 +1,10 @@
-package com.example.aes;
+package com.example.aes.Contents;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.aes.R;
 
 public class TrigActivity extends AppCompatActivity {
 

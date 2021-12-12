@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddRelative"
-    android:background="@drawable/background"
-    >
+    tools:context=".Contents.AddRelative"
+    android:background="@drawable/background">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,8 +17,7 @@
         <ImageView
             android:layout_width="800dp"
             android:layout_height="90dp"
-            android:src="@drawable/iconname">
-        </ImageView>
+            android:src="@drawable/iconname" />
     </RelativeLayout>
 
     <LinearLayout
@@ -34,7 +32,7 @@
         android:paddingTop="90dp">
 
 
-        <EditText
+       <!-- <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -43,10 +41,49 @@
             android:layout_marginRight="25dp"
             android:gravity="center_horizontal"
             android:hint="Name"
+            android:textAlignment="center" />-->
 
-            android:textAlignment="center" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_Input5"
+            style="@style/OutlineInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:placeholderTextColor="@color/black"
+            android:hint="name">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_Input"
+            style="@style/OutlineInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:placeholderTextColor="@color/black"
+            android:hint="Phone Number">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+       <!-- <EditText
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -55,38 +92,38 @@
             android:layout_marginRight="25dp"
             android:gravity="center_horizontal"
             android:hint="Phone Number"
-            android:textAlignment="center" />
+            android:textAlignment="center" />-->
 
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_marginTop="40dp"
         android:layout_below="@+id/relativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
         tools:ignore="MissingConstraints">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:background="#CC0059"
+            android:background="@drawable/btn_background"
             android:text="Add"
             android:textColor="#FFFFFF" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_toRightOf="@+id/btnAdd"
-            android:background="#CC0059"
+            android:background="@drawable/btn_background"
             android:text="Contacts"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
 
 </LinearLayout>

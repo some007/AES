@@ -1,5 +1,6 @@
-package com.example.aes;
+package com.example.aes.presetup;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -12,21 +13,21 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.LayoutInflaterCompat;
 
+import com.example.aes.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.mikepenz.iconics.context.IconicsLayoutInflater2;
 
 public class LoginActivity extends AppCompatActivity {
 
     private EditText inputEmail, inputPassword;
     private Button btnSignIn;
-    private ProgressBar progressBar;
     private FirebaseAuth auth;
     private TextView forgot,signup;
+    private ProgressBar progressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +47,8 @@ public class LoginActivity extends AppCompatActivity {
         forgot = findViewById(R.id.forgot_password);
         btnSignIn = findViewById(R.id.btn_login);
         signup = findViewById(R.id.sign_up);
+
+        progressBar = findViewById(R.id.progress);
 
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
             return;
         }
-
+        progressBar.setVisibility(View.VISIBLE);
 //        progressBar.setVisibility(View.VISIBLE);
 
         //authenticate user
@@ -108,6 +111,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Auth Failer", Toast.LENGTH_LONG).show();
                             }
                         } else {
+                            progressBar.setVisibility(View.GONE);
                             Intent intent = new Intent(LoginActivity.this,DashBoard.class);
                             startActivity(intent);
                             finish();

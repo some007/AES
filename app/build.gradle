@@ -61,6 +61,11 @@ android {
         // When using the BoM, don't specify versions in Firebase dependencies
         implementation 'com.google.firebase:firebase-analytics'
 
+        implementation 'me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1'
+
+        //tutorial
+        implementation 'com.github.msayan:tutorial-view:v1.0.10'
+
 
 
     }

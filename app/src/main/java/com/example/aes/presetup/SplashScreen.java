@@ -1,4 +1,4 @@
-package com.example.aes;
+package com.example.aes.presetup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.aes.onBoard.MainActivity;
+import com.example.aes.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SplashScreen extends AppCompatActivity {

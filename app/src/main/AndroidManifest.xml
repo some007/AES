@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aes">
+    package="com.example.aes" >
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AESAllEmergencyServices">
+        android:theme="@style/Theme.AESAllEmergencyServices" >
         <activity
-            android:name=".DashBoard"
+            android:name=".NewLoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ResetPassword"
+            android:name=".presetup.Login"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
-            android:exported="true">
+            android:name=".Contents.HowToSwipe"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperByActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Contents.TrigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewListContents"
+            android:exported="true" />
+        <activity
+            android:name=".helplineCall"
+            android:exported="false" />
+        <activity
+            android:name=".Contents.AddRelative"
+            android:exported="false" />
+        <activity
+            android:name=".presetup.DashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".presetup.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".presetup.SplashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,8 +50,8 @@
         </activity>
         <activity android:name=".onBoard.MainActivity" />
         <activity android:name=".onBoard.mainscreen" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".presetup.LoginActivity" />
+        <activity android:name=".presetup.SignupActivity" />
     </application>
 
 </manifest>

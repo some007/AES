@@ -1,4 +1,4 @@
-package com.example.aes;
+package com.example.aes.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.aes.R;
 
 
 public class SecondFragment extends Fragment {

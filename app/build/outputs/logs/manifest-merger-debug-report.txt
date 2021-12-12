@@ -1,15 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] C:\Users\user\.gradle\caches\transforms-3\d4b023a8499da1af2d423f3e9126975f\transformed\databinding-adapters-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\user\.gradle\caches\transforms-3\ce7b379093b7bedbf6229ac3904a3eef\transformed\databinding-runtime-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.ramotion.circlemenu:circle-menu:0.3.2] C:\Users\user\.gradle\caches\transforms-3\491845c1d5e0239df3fb4390878e36ef\transformed\jetified-circle-menu-0.3.2\AndroidManifest.xml:2:1-17:12
+MERGED from [me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1] C:\Users\user\.gradle\caches\transforms-3\a6bcb849353f054ad88d82921cc71652\transformed\jetified-bottom-nav-bar-1.0.1\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\user\.gradle\caches\transforms-3\f44900cf8519c1edf687ae5becad656d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\user\.gradle\caches\transforms-3\048416bac3fd20cdabc399452662427a\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.msayan:tutorial-view:v1.0.10] C:\Users\user\.gradle\caches\transforms-3\803eb0e63eeda29ad10702f20bf2f291\transformed\jetified-tutorial-view-v1.0.10\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8f8dfbea7461eb4b096b7a7771e0ff80\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.mikepenz:iconics-core:3.0.2] C:\Users\user\.gradle\caches\transforms-3\6bdef5e43dd1ad8dcda07b6959c55aea\transformed\jetified-iconics-core-3.0.2\AndroidManifest.xml:2:1-12:12
 MERGED from [com.mikepenz:fontawesome-typeface:5.0.6.0] C:\Users\user\.gradle\caches\transforms-3\d1459a7b2dda7b1038ae7b7de2f98d64\transformed\jetified-fontawesome-typeface-5.0.6.0\AndroidManifest.xml:2:1-12:12
@@ -20,6 +22,7 @@ MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Use
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\user\.gradle\caches\transforms-3\a844cd1cfb8e0f3354c1720799017d59\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f9b79f51315d04aad8dae835693a8916\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c0d8a6f132b8a22fd542cac80cf007a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\c14b9227ca6390cbb3ae9399ff2c3692\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\user\.gradle\caches\transforms-3\de603b97baf987dee0b977ef3448cc81\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
@@ -53,6 +56,7 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transfor
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\cecc9ec94e8e30395072a7eb11bbef0f\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5b1967c9968259ee1ad83b576694aafa\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\72dc33e6f822b7213ec7f90db9183b39\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6baf5fc9b880c6513445d8fe1e652e89\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38f3f780f5131718175e9fe016e21ea8\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\user\.gradle\caches\transforms-3\049271daa5f86d8ff992bfcc8aa4d3d9\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-3\919b1e91a07ddbf34272a620f8cba519\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -76,33 +80,37 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-3\7ffe4246977594fb4a9b6697a06b326e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\3c4cdcd2e9f2910d703350965f49f5be\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\c4748cd6bd5cb29e127895c065f91fd7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:5:5-55:19
 MERGED from [com.ramotion.circlemenu:circle-menu:0.3.2] C:\Users\user\.gradle\caches\transforms-3\491845c1d5e0239df3fb4390878e36ef\transformed\jetified-circle-menu-0.3.2\AndroidManifest.xml:11:5-15:19
 MERGED from [com.ramotion.circlemenu:circle-menu:0.3.2] C:\Users\user\.gradle\caches\transforms-3\491845c1d5e0239df3fb4390878e36ef\transformed\jetified-circle-menu-0.3.2\AndroidManifest.xml:11:5-15:19
+MERGED from [me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1] C:\Users\user\.gradle\caches\transforms-3\a6bcb849353f054ad88d82921cc71652\transformed\jetified-bottom-nav-bar-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1] C:\Users\user\.gradle\caches\transforms-3\a6bcb849353f054ad88d82921cc71652\transformed\jetified-bottom-nav-bar-1.0.1\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\user\.gradle\caches\transforms-3\f44900cf8519c1edf687ae5becad656d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\user\.gradle\caches\transforms-3\f44900cf8519c1edf687ae5becad656d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\user\.gradle\caches\transforms-3\048416bac3fd20cdabc399452662427a\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\user\.gradle\caches\transforms-3\048416bac3fd20cdabc399452662427a\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.msayan:tutorial-view:v1.0.10] C:\Users\user\.gradle\caches\transforms-3\803eb0e63eeda29ad10702f20bf2f291\transformed\jetified-tutorial-view-v1.0.10\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.msayan:tutorial-view:v1.0.10] C:\Users\user\.gradle\caches\transforms-3\803eb0e63eeda29ad10702f20bf2f291\transformed\jetified-tutorial-view-v1.0.10\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\user\.gradle\caches\transforms-3\6375ed62b0ac4885ec095261fc283cee\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\user\.gradle\caches\transforms-3\6375ed62b0ac4885ec095261fc283cee\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\user\.gradle\caches\transforms-3\bc92e791c177c44f8433e6c0958e860f\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
@@ -161,38 +169,98 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\user\.gradle\cache
 		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:11:9-61
-activity#com.example.aes.SplashScreen
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:12:9-20:20
+activity#com.example.aes.NewLoginActivity
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:13:13-45
+activity#com.example.aes.presetup.Login
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:16:13-43
+activity#com.example.aes.Contents.HowToSwipe
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:19:13-48
+activity#com.example.aes.DeveloperByActivity
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:22:13-48
+activity#com.example.aes.Contents.TrigActivity
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:25:13-50
+activity#com.example.aes.ViewListContents
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:28:13-45
+activity#com.example.aes.helplineCall
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:31:13-41
+activity#com.example.aes.Contents.AddRelative
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:34:13-49
+activity#com.example.aes.presetup.DashBoard
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:37:13-47
+activity#com.example.aes.presetup.ResetPassword
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:40:13-51
+activity#com.example.aes.presetup.SplashScreen
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:exported
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:43:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:48:27-74
 activity#com.example.aes.onBoard.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:21:9-57
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:51:9-58
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:21:19-55
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:51:19-55
 activity#com.example.aes.onBoard.mainscreen
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:22:9-55
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:52:9-56
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:22:19-53
-activity#com.example.aes.LoginActivity
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:23:9-50
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:52:19-53
+activity#com.example.aes.presetup.LoginActivity
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:53:9-60
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:23:19-48
-activity#com.example.aes.SignupActivity
-ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:24:9-51
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:53:19-57
+activity#com.example.aes.presetup.SignupActivity
+ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:54:9-61
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:24:19-49
+		ADDED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:54:19-58
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml
@@ -203,12 +271,16 @@ MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\user\.grad
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\user\.gradle\caches\transforms-3\ce7b379093b7bedbf6229ac3904a3eef\transformed\databinding-runtime-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [com.ramotion.circlemenu:circle-menu:0.3.2] C:\Users\user\.gradle\caches\transforms-3\491845c1d5e0239df3fb4390878e36ef\transformed\jetified-circle-menu-0.3.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.ramotion.circlemenu:circle-menu:0.3.2] C:\Users\user\.gradle\caches\transforms-3\491845c1d5e0239df3fb4390878e36ef\transformed\jetified-circle-menu-0.3.2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1] C:\Users\user\.gradle\caches\transforms-3\a6bcb849353f054ad88d82921cc71652\transformed\jetified-bottom-nav-bar-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1] C:\Users\user\.gradle\caches\transforms-3\a6bcb849353f054ad88d82921cc71652\transformed\jetified-bottom-nav-bar-1.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\user\.gradle\caches\transforms-3\f44900cf8519c1edf687ae5becad656d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\user\.gradle\caches\transforms-3\f44900cf8519c1edf687ae5becad656d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\user\.gradle\caches\transforms-3\048416bac3fd20cdabc399452662427a\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\user\.gradle\caches\transforms-3\048416bac3fd20cdabc399452662427a\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.msayan:tutorial-view:v1.0.10] C:\Users\user\.gradle\caches\transforms-3\803eb0e63eeda29ad10702f20bf2f291\transformed\jetified-tutorial-view-v1.0.10\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.msayan:tutorial-view:v1.0.10] C:\Users\user\.gradle\caches\transforms-3\803eb0e63eeda29ad10702f20bf2f291\transformed\jetified-tutorial-view-v1.0.10\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8f8dfbea7461eb4b096b7a7771e0ff80\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\user\.gradle\caches\transforms-3\8f8dfbea7461eb4b096b7a7771e0ff80\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.mikepenz:iconics-core:3.0.2] C:\Users\user\.gradle\caches\transforms-3\6bdef5e43dd1ad8dcda07b6959c55aea\transformed\jetified-iconics-core-3.0.2\AndroidManifest.xml:8:5-10:41
@@ -229,6 +301,8 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\c
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\user\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f9b79f51315d04aad8dae835693a8916\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f9b79f51315d04aad8dae835693a8916\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c0d8a6f132b8a22fd542cac80cf007a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c0d8a6f132b8a22fd542cac80cf007a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\c14b9227ca6390cbb3ae9399ff2c3692\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\c14b9227ca6390cbb3ae9399ff2c3692\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\user\.gradle\caches\transforms-3\de603b97baf987dee0b977ef3448cc81\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -295,6 +369,8 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5b1967c9968259ee1ad83b576694aafa\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\72dc33e6f822b7213ec7f90db9183b39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\72dc33e6f822b7213ec7f90db9183b39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6baf5fc9b880c6513445d8fe1e652e89\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6baf5fc9b880c6513445d8fe1e652e89\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38f3f780f5131718175e9fe016e21ea8\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38f3f780f5131718175e9fe016e21ea8\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\user\.gradle\caches\transforms-3\049271daa5f86d8ff992bfcc8aa4d3d9\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44

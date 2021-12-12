@@ -1,7 +1,6 @@
 package com.example.aes;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class NewLoginActivity extends AppCompatActivity {

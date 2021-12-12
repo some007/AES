@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#ff563f</color>
-    <color name="purple_500">#ff563f</color>
+    <color name="purple_200">#475993</color>
+    <color name="purple_500">#475993</color>
     <color name="purple_700">#FFFFFF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
@@ -28,6 +28,22 @@
     <color name="divider">#f5f5f5</color>
     <color name="divider_or">#999999</color>
     <color name="account">#999999</color>
+
+    <color name="first">#432967</color>
+    <color name="second">#782D65</color>
+    <color name="third">#C3305D</color>
+    <color name="four">#F0445E</color>
+    <color name="five">#FD9367</color>
+
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+
 
 
 </resources>

@@ -1,4 +1,4 @@
-package com.example.aes;
+package com.example.aes.presetup;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,13 +12,12 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.LayoutInflaterCompat;
 
+import com.example.aes.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.mikepenz.iconics.context.IconicsLayoutInflater2;
 
 public class SignupActivity extends AppCompatActivity {
     private EditText inputfullname,inputEmail, inputPassword;
