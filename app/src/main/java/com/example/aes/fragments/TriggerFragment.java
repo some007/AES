@@ -10,15 +10,15 @@ import androidx.fragment.app.Fragment;
 import com.example.aes.R;
 
 
-public class ThirdFragment extends Fragment {
+public class TriggerFragment extends Fragment {
 
-    public ThirdFragment(){
+    public TriggerFragment(){
         // require a empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_third, container, false);
+        return inflater.inflate(R.layout.fragment_second, container, false);
     }
 }

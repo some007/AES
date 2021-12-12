@@ -15,11 +15,11 @@ import com.example.aes.presetup.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 
-public class FirstFragment extends Fragment {
+public class HomeFragment extends Fragment {
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
     //ImageView logout;
-    public FirstFragment(){
+    public HomeFragment(){
         // require a empty public constructor
     }
 

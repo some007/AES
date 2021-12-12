@@ -1,28 +1,36 @@
 package com.example.aes.presetup;
 
+import static android.Manifest.permission.CALL_PHONE;
+
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.example.aes.Contents.AddRelative;
 import com.example.aes.Contents.HowToSwipe;
 import com.example.aes.DeveloperByActivity;
-import com.example.aes.NewLoginActivity;
 import com.example.aes.R;
 import com.example.aes.Contents.TrigActivity;
-import com.example.aes.fragments.FirstFragment;
-import com.example.aes.fragments.SecondFragment;
-import com.example.aes.fragments.ThirdFragment;
+import com.example.aes.fragments.HomeFragment;
+import com.example.aes.fragments.TriggerFragment;
+import com.example.aes.fragments.ProfileFragment;
 import com.example.aes.helplineCall;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavigationView;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,26 +41,27 @@ public class DashBoard extends AppCompatActivity implements BottomNavigationView
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.person);
+         mp = MediaPlayer.create(getApplicationContext(), R.raw.siren);
 
     }
-    FirstFragment firstFragment = new FirstFragment();
-    SecondFragment secondFragment = new SecondFragment();
-    ThirdFragment thirdFragment = new ThirdFragment();
+    HomeFragment homeFragment = new HomeFragment();
+    TriggerFragment triggerFragment = new TriggerFragment();
+    ProfileFragment profileFragment = new ProfileFragment();
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
             case R.id.person:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, firstFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
                 return true;
 
             case R.id.home:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, secondFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, triggerFragment).commit();
                 return true;
 
             case R.id.settings:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, thirdFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
                 return true;
         }
         return false;
@@ -88,18 +97,40 @@ public class DashBoard extends AppCompatActivity implements BottomNavigationView
         startActivity(i);
     }
 
-    public void screem(View view) {
+    public boolean screem(View view) {
 
-        Intent i = new Intent(getApplicationContext(), NewLoginActivity.class);
+       /* Intent i = new Intent(getApplicationContext(), NewLoginActivity.class);
+        startActivity(i);*/
+        mp.start();
+        Toast.makeText(DashBoard.this, "Panic Button Started !!!", Toast.LENGTH_SHORT).show();
+        return false;
+    }
+
+    public void whereareyou(View view)
+    {
+        Intent i = new Intent(getApplicationContext(), MapsActivity.class);
         startActivity(i);
     }
 
-    public void whereareyou(View view) {
+    public void callPolice(View view)
+    {
+        Intent i  = new Intent(Intent.ACTION_CALL);
+        i.setData(Uri.parse("tel:1000"));
+
+        if(ContextCompat.checkSelfPermission(getApplicationContext(),CALL_PHONE)== PackageManager.PERMISSION_GRANTED)
+        {
+            startActivity(i);
+        }
+        else {
+            if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.M)
+            {
+                requestPermissions(new String[]{CALL_PHONE},1);
+            }
+        }
     }
 
-    public void callPolice(View view) {
-    }
+    public void trackme(View view)
+    {
 
-    public void trackme(View view) {
     }
 }

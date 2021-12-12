@@ -110,6 +110,7 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateRelativeTo
 attr animationMode
@@ -193,6 +194,13 @@ attr buttonTint
 attr buttonTintMode
 attr button_colors
 attr button_icons
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -576,6 +584,10 @@ attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr layout
 attr layoutDescription
 attr layoutDuringTransition
@@ -669,6 +681,7 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoDescription
 attr long_click_duration_ring
@@ -688,6 +701,8 @@ attr lottie_repeatMode
 attr lottie_scale
 attr lottie_speed
 attr lottie_url
+attr mapId
+attr mapType
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1074,9 +1089,18 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr useCompatPadding
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr viewInflaterClass
@@ -1106,6 +1130,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -1892,7 +1917,9 @@ drawable aryan
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_to_home_button
+drawable backg
 drawable background
+drawable backgrounds
 drawable bg1
 drawable bg2
 drawable bg3
@@ -1905,6 +1932,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable btns_background
 drawable circle_black
 drawable circle_white
 drawable common_full_open_on_phone
@@ -2109,7 +2137,6 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
-id animationView
 id antiClockwise
 id anticipate
 id app_bar
@@ -2140,6 +2167,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAdd
+id btnHospital
+id btnPolice
 id btnView
 id btn_login
 id btn_login_fb
@@ -2277,6 +2306,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -2327,6 +2357,7 @@ id login_title
 id login_welcome_msg
 id logout
 id lottie_layer_name
+id map
 id masked
 id match_constraint
 id match_parent
@@ -2448,6 +2479,7 @@ id right_side
 id ring_view
 id rounded
 id row_index_key
+id satellite
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2533,6 +2565,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2687,6 +2720,7 @@ layout activity_login
 layout activity_login2
 layout activity_main
 layout activity_mainscreen
+layout activity_maps
 layout activity_new_login
 layout activity_reset_password
 layout activity_signup
@@ -2801,9 +2835,9 @@ menu bottom_nav_menu
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
-mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw coronavirus
+raw siren
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2880,6 +2914,7 @@ string get_started_btn_label
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_maps_key
 string google_storage_bucket
 string have_account
 string heading_fourth
@@ -3812,6 +3847,7 @@ styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionL
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

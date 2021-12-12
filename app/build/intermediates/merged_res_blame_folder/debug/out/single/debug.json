@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_btns_background.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\btns_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_swipe.png.flat",
@@ -10,14 +10,6 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_himanshu.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\himanshu.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_logout.png.flat",
@@ -36,6 +28,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\raw\\coronavirus.json"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\raw_siren.mp3.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\raw\\siren.mp3"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\font_sf_pro_display_light.otf.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\font\\sf_pro_display_light.otf"
     },
@@ -50,10 +46,6 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_s3.png.flat",
@@ -92,12 +84,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\font\\poppins_light.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\font_sf_pro_display_semibold.otf.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\font\\sf_pro_display_semibold.otf"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\font_sf_pro_display_semibold.otf.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\font\\sf_pro_display_semibold.otf"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_image3.png.flat",
@@ -180,8 +172,8 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\triggers.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgrounds.jpeg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\backgrounds.jpeg"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_lgo2.png.flat",
@@ -190,10 +182,6 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login2.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\layout\\activity_login2.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dash_board.xml.flat",
@@ -228,6 +216,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\profile_back_button.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_trig.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\layout\\activity_trig.xml"
     },
@@ -244,16 +236,8 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_back.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable-mdpi\\ic_back.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_apt.xml.flat",
@@ -276,12 +260,16 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\solid_bg.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_danish.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\danish.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_mobile.png.flat",
@@ -296,10 +284,6 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\layout\\activity_mainscreen.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_bg.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\splash_bg.png"
     },
@@ -312,16 +296,16 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\profile_round.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_image1.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\image1.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg2.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_backg.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\backg.jpg"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\layout_slider_layout.xml.flat",
@@ -342,6 +326,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_aryan.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\aryan.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\font_sf_pro_display_regular.otf.flat",
@@ -366,5 +354,9 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_s2.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\s2.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

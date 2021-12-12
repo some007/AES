@@ -132,39 +132,6 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="12dp"
-            android:onClick="developedBy"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/developedby" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:text="Developed By"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="12dp"
             android:onClick="HowTo"
             app:cardCornerRadius="12dp"
             app:cardElevation="6dp">
@@ -197,11 +164,41 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="12dp"
+            android:onClick="developedBy"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/developedby" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Developed By"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
             android:onClick="LogOut"
             app:cardCornerRadius="12dp"
-            app:cardElevation="6dp"
-
-            >
+            app:cardElevation="6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"

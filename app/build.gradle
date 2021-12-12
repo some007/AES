@@ -65,6 +65,9 @@ android {
 
         //tutorial
         implementation 'com.github.msayan:tutorial-view:v1.0.10'
+        //maps
+        implementation 'com.google.android.gms:play-services-location:18.0.0'
+        implementation 'com.google.android.gms:play-services-maps:18.0.0'
 
 
 
@@ -77,4 +80,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
 }

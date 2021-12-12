@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:clickable="false"
-                android:text="Where are you ?"
+                android:text="Nearby Places"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
