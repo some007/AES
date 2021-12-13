@@ -1,25 +1,5 @@
-com/example/aes/presetup/DownloadUrl.java
- com.example.aes.presetup.DownloadUrl
-com/example/aes/presetup/GetNearbyPlacesData.java
- com.example.aes.presetup.GetNearbyPlacesData
-com/example/aes/DataBindingTriggerClass.java
- com.example.aes.DataBindingTriggerClass
-com/example/aes/presetup/DataParser.java
- com.example.aes.presetup.DataParser
-com/example/aes/database/DatabaseHelper.java
- com.example.aes.database.DatabaseHelper
-com/example/aes/BuildConfig.java
- com.example.aes.BuildConfig
-com/example/aes/presetup/MapsActivity.java
- com.example.aes.presetup.MapsActivity
- com.example.aes.presetup.MapsActivity$1
- com.example.aes.presetup.MapsActivity$2
 com/example/aes/NewLoginActivity.java
  com.example.aes.NewLoginActivity
-com/example/aes/onBoard/mainscreen.java
- com.example.aes.onBoard.mainscreen
-com/example/aes/databinding/ActivityMainscreenBinding.java
- com.example.aes.databinding.ActivityMainscreenBinding
 com/example/aes/fragments/ProfileFragment.java
  com.example.aes.fragments.ProfileFragment
 com/example/aes/presetup/SignupActivity.java
@@ -27,26 +7,14 @@ com/example/aes/presetup/SignupActivity.java
  com.example.aes.presetup.SignupActivity$1
  com.example.aes.presetup.SignupActivity$2
  com.example.aes.presetup.SignupActivity$2$1
-com/example/aes/Contents/AddRelative.java
- com.example.aes.Contents.AddRelative
- com.example.aes.Contents.AddRelative$1
- com.example.aes.Contents.AddRelative$2
-com/example/aes/ViewListContents.java
- com.example.aes.ViewListContents
-com/example/aes/onBoard/MainActivity.java
- com.example.aes.onBoard.MainActivity
- com.example.aes.onBoard.MainActivity$1
- com.example.aes.onBoard.MainActivity$2
-com/example/aes/databinding/ActivityMainBinding.java
- com.example.aes.databinding.ActivityMainBinding
+com/example/aes/maps/DownloadUrl.java
+ com.example.aes.maps.DownloadUrl
 com/example/aes/fragments/TriggerFragment.java
  com.example.aes.fragments.TriggerFragment
+com/example/aes/BuildConfig.java
+ com.example.aes.BuildConfig
 com/example/aes/presetup/Login.java
  com.example.aes.presetup.Login
-com/example/aes/presetup/ResetPassword.java
- com.example.aes.presetup.ResetPassword
- com.example.aes.presetup.ResetPassword$1
- com.example.aes.presetup.ResetPassword$1$1
 com/example/aes/presetup/LoginActivity.java
  com.example.aes.presetup.LoginActivity
  com.example.aes.presetup.LoginActivity$1
@@ -60,15 +28,47 @@ com/example/aes/presetup/DashBoard.java
  com.example.aes.presetup.DashBoard
 com/example/aes/helplineCall.java
  com.example.aes.helplineCall
+com/example/aes/Contents/HowToSwipe.java
+ com.example.aes.Contents.HowToSwipe
+com/example/aes/Contents/TrigActivity.java
+ com.example.aes.Contents.TrigActivity
+com/example/aes/database/DatabaseHelper.java
+ com.example.aes.database.DatabaseHelper
+com/example/aes/maps/DataParser.java
+ com.example.aes.maps.DataParser
+com/example/aes/DataBindingTriggerClass.java
+ com.example.aes.DataBindingTriggerClass
+com/example/aes/onBoard/mainscreen.java
+ com.example.aes.onBoard.mainscreen
+com/example/aes/databinding/ActivityMainscreenBinding.java
+ com.example.aes.databinding.ActivityMainscreenBinding
+com/example/aes/Contents/AddRelative.java
+ com.example.aes.Contents.AddRelative
+ com.example.aes.Contents.AddRelative$1
+ com.example.aes.Contents.AddRelative$2
+com/example/aes/ViewListContents.java
+ com.example.aes.ViewListContents
+com/example/aes/onBoard/MainActivity.java
+ com.example.aes.onBoard.MainActivity
+ com.example.aes.onBoard.MainActivity$1
+ com.example.aes.onBoard.MainActivity$2
+com/example/aes/databinding/ActivityMainBinding.java
+ com.example.aes.databinding.ActivityMainBinding
+com/example/aes/presetup/ResetPassword.java
+ com.example.aes.presetup.ResetPassword
+ com.example.aes.presetup.ResetPassword$1
+ com.example.aes.presetup.ResetPassword$1$1
+com/example/aes/maps/GetNearbyPlacesData.java
+ com.example.aes.maps.GetNearbyPlacesData
 com/example/aes/presetup/SplashScreen.java
  com.example.aes.presetup.SplashScreen
  com.example.aes.presetup.SplashScreen$1
-com/example/aes/Contents/HowToSwipe.java
- com.example.aes.Contents.HowToSwipe
+com/example/aes/maps/MapsActivity.java
+ com.example.aes.maps.MapsActivity
+ com.example.aes.maps.MapsActivity$1
+ com.example.aes.maps.MapsActivity$2
 com/example/aes/DeveloperByActivity.java
  com.example.aes.DeveloperByActivity
-com/example/aes/Contents/TrigActivity.java
- com.example.aes.Contents.TrigActivity
 com/example/aes/onBoard/ViewPagerAdapter.java
  com.example.aes.onBoard.ViewPagerAdapter
 com/example/aes/databinding/SliderLayoutBinding.java

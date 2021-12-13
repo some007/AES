@@ -153,8 +153,8 @@
 86
 87        <activity
 87-->C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:62:9-63:38
-88            android:name="com.example.aes.presetup.MapsActivity"
-88-->C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:62:19-56
+88            android:name="com.example.aes.maps.MapsActivity"
+88-->C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:62:19-52
 89            android:exported="true" />
 89-->C:\Users\user\AndroidStudioProjects\AESAllEmergencyServices\app\src\main\AndroidManifest.xml:63:13-36
 90        <activity

@@ -1261,6 +1261,7 @@ int color five 0x7f06007c
 int color foreground_material_dark 0x7f06007d
 int color foreground_material_light 0x7f06007e
 int color four 0x7f06007f
+int color green_color 0x7f060103
 int color highlighted_text_material_dark 0x7f060080
 int color highlighted_text_material_light 0x7f060081
 int color inactive 0x7f060082
@@ -1962,7 +1963,9 @@ int drawable design_snackbar_background 0x7f080084
 int drawable developedby 0x7f080085
 int drawable ellipse1 0x7f080086
 int drawable ellipse2 0x7f080087
+int drawable facebook_icon 0x7f0800dc
 int drawable github 0x7f080088
+int drawable google_icon 0x7f0800dd
 int drawable googleg_disabled_color_18 0x7f080089
 int drawable googleg_standard_color_18 0x7f08008a
 int drawable helpline 0x7f08008b
@@ -2170,10 +2173,8 @@ int id btnHospital 0x7f0a0071
 int id btnPolice 0x7f0a0072
 int id btnView 0x7f0a0073
 int id btn_login 0x7f0a0074
-int id btn_login_fb 0x7f0a0075
 int id btn_reset 0x7f0a0076
 int id btn_signup 0x7f0a0077
-int id btn_signup_fb 0x7f0a0078
 int id buttonContainer 0x7f0a0079
 int id buttonPanel 0x7f0a007a
 int id cache_measures 0x7f0a007b

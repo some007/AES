@@ -1262,6 +1262,7 @@ color five
 color foreground_material_dark
 color foreground_material_light
 color four
+color green_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color inactive
@@ -1963,7 +1964,9 @@ drawable design_snackbar_background
 drawable developedby
 drawable ellipse1
 drawable ellipse2
+drawable facebook_icon
 drawable github
+drawable google_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable helpline
@@ -2171,10 +2174,8 @@ id btnHospital
 id btnPolice
 id btnView
 id btn_login
-id btn_login_fb
 id btn_reset
 id btn_signup
-id btn_signup_fb
 id buttonContainer
 id buttonPanel
 id cache_measures

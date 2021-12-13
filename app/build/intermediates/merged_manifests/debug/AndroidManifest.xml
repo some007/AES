@@ -85,7 +85,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.aes.presetup.MapsActivity"
+            android:name="com.example.aes.maps.MapsActivity"
             android:exported="true" />
         <activity
             android:name="com.example.aes.presetup.SplashScreen"

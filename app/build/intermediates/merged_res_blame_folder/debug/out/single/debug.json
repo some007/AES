@@ -144,6 +144,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_icon.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\google_icon.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg1.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\bg1.xml"
     },
@@ -302,6 +306,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg2.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook_icon.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\facebook_icon.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_backg.jpg.flat",
