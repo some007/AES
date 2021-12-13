@@ -256,6 +256,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\ic_address.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient_back.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\gradient_back.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_back.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
     },

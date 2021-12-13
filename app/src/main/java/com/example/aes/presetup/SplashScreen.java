@@ -10,6 +10,7 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aes.R;
@@ -19,11 +20,21 @@ public class SplashScreen extends AppCompatActivity {
     private FirebaseAuth auth;
     private final int REQUEST_CHECK_CODE = 8989;
     private static final int REQUEST_LOCATION = 1;
+    TextView textView;
+    Runnable endAction;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+       /* textView = findViewById(R.id.textView);
+        textView.animate().alpha(1f).setDuration(500).setStartDelay(0).withEndAction(
+                endAction = new Runnable() {
+                    public void run() {
+                        textView.animate().alpha(0f).setDuration(500).setStartDelay(500);
+                    }
+                }
+        );*/
         startTrack();
 
         new Handler().postDelayed(new Runnable() {

@@ -1968,6 +1968,7 @@ int drawable github 0x7f080088
 int drawable google_icon 0x7f0800dd
 int drawable googleg_disabled_color_18 0x7f080089
 int drawable googleg_standard_color_18 0x7f08008a
+int drawable gradient_back 0x7f0800de
 int drawable helpline 0x7f08008b
 int drawable himanshu 0x7f08008c
 int drawable ic_address 0x7f08008d
@@ -2577,6 +2578,7 @@ int id textSpacerNoButtons 0x7f0a0207
 int id textSpacerNoTitle 0x7f0a0208
 int id textStart 0x7f0a0209
 int id textTop 0x7f0a020a
+int id textView 0x7f0a024c
 int id textViewBar1 0x7f0a020b
 int id textViewBar2 0x7f0a020c
 int id textViewBar3 0x7f0a020d

@@ -22,6 +22,7 @@
 
 
   <TextView
+      android:id="@+id/textView"
       android:layout_width="338dp"
       android:layout_height="157dp"
       android:gravity="center"
