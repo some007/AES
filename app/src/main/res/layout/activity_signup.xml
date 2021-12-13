@@ -4,17 +4,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            style="@style/ToolbarStyle">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:paddingStart="@dimen/ic_nav_padding_start"
-                android:src="@drawable/ic_back" />
-        </androidx.appcompat.widget.Toolbar>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingStart="@dimen/ic_nav_padding_start"
+            android:tint="@color/green_color"
+            android:src="@drawable/ic_back" />
+    </androidx.appcompat.widget.Toolbar>
 
         <RelativeLayout
             android:id="@+id/containerLayout"
@@ -29,7 +30,7 @@
                 android:layout_marginTop="0dp"
                 android:fontFamily="@font/sf_pro_display_medium"
                 android:text="@string/signup_title"
-                android:textColor="@color/orange" />
+                android:textColor="@color/green_color" />
 
             <TextView
                 android:id="@+id/signup_welcome_msg"
@@ -68,6 +69,9 @@
                 android:layout_width="match_parent"
                 android:layout_below="@id/et_password"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/btns_background"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
                 android:text="@string/signup_btn_label" />
 
             <RelativeLayout
@@ -93,8 +97,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="@string/divider_or"
-
                     android:textColor="@color/divider_or"
                     android:textSize="16sp" />
 
@@ -110,7 +112,7 @@
 
             </RelativeLayout>
 
-            <androidx.appcompat.widget.AppCompatButton
+          <!--  <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signup_fb"
                 style="@style/StrokeButtonStyle"
                 android:layout_width="match_parent"
@@ -119,7 +121,7 @@
                 android:text="Facebook"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp" />-->
 
 
             <RelativeLayout
@@ -143,7 +145,7 @@
                     android:layout_toEndOf="@id/have_account"
                     android:fontFamily="@font/sf_pro_display_medium"
                     android:text="@string/login_label"
-                    android:textColor="@color/orange"
+                    android:textColor="@color/green_color"
                     android:textSize="16sp" />
             </RelativeLayout>
         </RelativeLayout>

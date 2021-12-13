@@ -111,8 +111,9 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/btns_background"
             android:text="Add"
+            android:textAllCaps="false"
             android:textColor="#FFFFFF" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -121,8 +122,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_toRightOf="@+id/btnAdd"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/btns_background"
             android:text="Contacts"
+            android:textAllCaps="false"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>

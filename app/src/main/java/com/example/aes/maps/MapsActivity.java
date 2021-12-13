@@ -1,4 +1,4 @@
-package com.example.aes.presetup;
+package com.example.aes.maps;
 
 import android.Manifest;
 import android.content.pm.PackageManager;

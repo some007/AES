@@ -25,6 +25,7 @@ import com.example.aes.fragments.HomeFragment;
 import com.example.aes.fragments.TriggerFragment;
 import com.example.aes.fragments.ProfileFragment;
 import com.example.aes.helplineCall;
+import com.example.aes.maps.MapsActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {

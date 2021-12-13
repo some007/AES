@@ -59,7 +59,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".presetup.MapsActivity"
+        <activity android:name=".maps.MapsActivity"
             android:exported="true"/>
         <activity
             android:name=".presetup.SplashScreen"
