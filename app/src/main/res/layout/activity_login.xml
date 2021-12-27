@@ -149,13 +149,14 @@
                     android:background="@drawable/btns_background"
                     android:textAllCaps="false"/>-->
 
-                <ImageView
+                <Button
+                    android:id="@+id/googleSignin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:background="@drawable/google_icon"/>
+                    android:text="google"
+                    android:padding="10dp"/>
 
-                <TextView
+               <!-- <TextView
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
                     android:layout_width="wrap_content"
@@ -167,7 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:background="@drawable/facebook_icon"/>
+                    android:background="@drawable/facebook_icon"/>-->
 
 
 

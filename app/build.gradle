@@ -48,7 +48,7 @@ android {
         def lottieVersion = "3.4.0"
         implementation "com.airbnb.android:lottie:$lottieVersion"
 
-        implementation "com.mikepenz:iconics-core:3.0.2@aar"
+        implementation "com.mikepenz:iconics-core:3.0.3@aar"
         implementation 'com.mikepenz:fontawesome-typeface:5.0.6.0@aar'
 
         implementation 'com.ramotion.circlemenu:circle-menu:0.3.2'
@@ -66,8 +66,11 @@ android {
         //tutorial
         implementation 'com.github.msayan:tutorial-view:v1.0.10'
         //maps
-        implementation 'com.google.android.gms:play-services-location:18.0.0'
-        implementation 'com.google.android.gms:play-services-maps:18.0.0'
+        implementation 'com.google.android.gms:play-services-location:19.0.0'
+        implementation 'com.google.android.gms:play-services-maps:18.0.1'
+
+        //
+        implementation 'com.google.android.gms:play-services-auth:20.0.0'
 
 
 
@@ -80,5 +83,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.1'
 }

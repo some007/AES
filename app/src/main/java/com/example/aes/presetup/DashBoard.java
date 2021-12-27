@@ -26,17 +26,37 @@ import com.example.aes.fragments.TriggerFragment;
 import com.example.aes.fragments.ProfileFragment;
 import com.example.aes.helplineCall;
 import com.example.aes.maps.MapsActivity;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavigationView;
     MediaPlayer mp;
+    GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client))
+                .requestProfile()
+                .requestEmail()
+                .build();
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .enableAutoManage(this, this)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
+
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
@@ -96,6 +116,12 @@ public class DashBoard extends AppCompatActivity implements BottomNavigationView
     public void LogOut(View v){
         Intent i = new Intent(getApplicationContext(), Login.class);
         startActivity(i);
+        
+        signOut();
+    }
+
+    private void signOut() {
+        mGoogleApiClient.maybeSignOut();
     }
 
     public boolean screem(View view) {

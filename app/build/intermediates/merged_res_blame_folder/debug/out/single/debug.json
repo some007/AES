@@ -140,12 +140,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\ic_dob.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_icon.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\google_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg1.xml.flat",
@@ -252,12 +252,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\s1.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_address.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\ic_address.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient_back.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\gradient_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_address.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\ic_address.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_back.png.flat",
