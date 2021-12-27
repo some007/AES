@@ -216,6 +216,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\image2.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile_back_button.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\AESAllEmergencyServices\\app\\src\\main\\res\\drawable\\profile_back_button.xml"
     },

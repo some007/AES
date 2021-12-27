@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     private FirebaseAuth auth;
     private TextView forgot,signup;
     private ProgressBar progressBar;
-    private Button signInBtn;
+    private ImageView signInBtn;
     GoogleApiClient mGoogleApiClient;
     private static final int RC_SIGN_IN = 9001;
 

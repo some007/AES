@@ -2049,6 +2049,7 @@ int drawable test_level_drawable 0x7f0800db
 int drawable tooltip_frame_dark 0x7f0800dc
 int drawable tooltip_frame_light 0x7f0800dd
 int drawable triggers 0x7f0800de
+int drawable user 0x7f0800df
 int font poppins 0x7f090000
 int font poppins_bold 0x7f090001
 int font poppins_light 0x7f090002

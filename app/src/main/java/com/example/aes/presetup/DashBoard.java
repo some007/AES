@@ -28,6 +28,7 @@ import com.example.aes.helplineCall;
 import com.example.aes.maps.MapsActivity;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
@@ -35,7 +36,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class DashBoard extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener, GoogleApiClient.OnConnectionFailedListener {
 
     BottomNavigationView bottomNavigationView;
     MediaPlayer mp;
@@ -158,6 +159,11 @@ public class DashBoard extends AppCompatActivity implements BottomNavigationView
 
     public void trackme(View view)
     {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
 }
